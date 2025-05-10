@@ -1,1 +1,0 @@
-# OOP-KB232-Artem-Plotnikov
