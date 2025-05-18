@@ -1,10 +1,8 @@
 public class Task11 {
     public static int sum(int[] arr) {
-        if (arr == null) return 0;
+        if (arr == null || arr.length == 0) return 0;
         int sum = 0;
-        for (int n : arr) {
-            if (n % 2 == 0) sum += n;
-        }
+        for (int n : arr) if (n % 2 == 0) sum += n;
         return sum;
     }
 
